@@ -5,8 +5,6 @@ module "iam" {
   tags   = local.common_tags
 }
 
-
-
 # module code to create the ec2 instance with user data
 module "ec2_dev" {
   source        = "./ec2"
